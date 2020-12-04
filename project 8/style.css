@@ -1,0 +1,195 @@
+.home{
+
+	background:url(banner.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.home-in{
+	background:rgba(0,0,0,0.6);
+}
+
+.navbar-brand{
+	color: white;
+	font-weight: 600;
+}
+
+.navbar-brand:hover{
+	color: white;
+	font-weight: 600;
+}
+
+.nav-link{
+	color:white;
+}
+
+.nav-link:hover{
+	color: lightgrey;
+}
+
+.head{
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.try{
+	height: 1200px;
+	background-color: black;
+}
+
+.abc1{
+	width: 40%;
+	border: 1px solid #1a57a5;
+	font-size: 18px;
+	background-color: #1a57a5;
+}
+.abc1:hover{
+	background-color: #154785;
+	cursor: pointer;
+}
+
+.abc2{
+	width: 40%;
+	font-size: 18px;
+	border:1px solid white;
+}
+.abc2:hover{
+	background-color:rgba(256,256,256,0.2);
+	cursor: pointer;
+}
+.blue{
+	color: #2f66ad;
+}
+.grey{
+	color: #898b90;
+}
+.ic{
+	font-weight: 300;
+	font-size: 90px;
+	color: #2f66ad;
+}
+.ic2{
+	font-weight: 300;
+	line-height: 90px;
+	font-size: 70px;
+	color: #2f66ad;
+}
+.ico{
+	transition: 0.3s;
+}
+.learn{
+	font-size: 20px;
+}
+.learn:hover{
+	text-decoration: none;
+}
+
+.learn:hover .ico{
+	margin-right: 15px;
+}
+.lb{
+	background-color: #d6e6f2;
+}
+
+.fea{
+	width: 70%;
+	font-size: 18px;
+}
+
+.hor{
+	width: 15%;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1a57a5;
+}
+.greyb{
+	color: #516174;
+}
+.but{
+	background-color: black;
+}
+.but:hover{
+	background-color: #363d47;
+}
+.but2{
+	background-color: #1a57a5;
+}
+.but2:hover{
+	background-color: #154785;
+}
+.but,.but2:hover{
+	cursor: pointer;
+}
+
+.imge{
+	width: 70px;
+	height: 70px;
+}
+.imge img{
+	border-radius: 100%;
+}
+.bg-blue{
+	background-color: #1a57a5;
+}
+.inp{
+	width: 100%;
+	grid-row: 3;
+}
+.act{
+	color: lightgrey;
+}
+
+.act:hover{
+	color: white;
+	cursor: pointer;
+}
+
+@media(max-width: 992px){
+	.fea{
+		width: 85%;
+	}
+}
+@media(max-width: 767px)
+{
+	.fea{
+		width: 80%;
+	}
+	.navbar{
+		background-color: white;
+		
+	}
+
+	.navbar-brand{
+		color: darkblue;
+		font-weight: 700;
+	}
+
+	.nav-link{
+		color:#000;
+	}
+	
+	.head{
+		font-size: 35px;
+		font-weight: 500;
+	}
+	.abc1,.abc2{
+		width: 70%;
+	}
+}
+
+.cost{
+	font-size: 50px;
+}
+
+.bor{
+	border:1px solid lightgrey;
+}
+@media(max-width: 575px)
+{
+	.lb h2{
+		font-size: 24px;
+	}
+	.abc1,.abc2{
+			width: 100%;
+	}
+}
